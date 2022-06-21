@@ -44,14 +44,82 @@ body {
   }
 }
 .header__instafaktor-title {
-  position: absolute;
+  position: relative;
+  bottom: 300px;
   left: 405px;
-  bottom: -35px;
+}
+@media (min-width: 1366px) and (max-width: 1550px) {
+  .header__instafaktor-title {
+    bottom: 200px;
+    left: 288px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .header__instafaktor-title {
+    bottom: 200px;
+    left: 288px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__instafaktor-title {
+    bottom: 113px;
+    left: 170px;
+  }
+}
+@media (max-width: 767px) {
+  .header__instafaktor-title {
+    bottom: 70px;
+    left: 30px;
+  }
 }
 .header__dora-predojevic-title {
-  position: absolute;
-  right: 405px;
-  bottom: -53px;
+  position: relative;
+  bottom: 300px;
+  left: 0;
+}
+@media (min-width: 1366px) and (max-width: 1550px) {
+  .header__dora-predojevic-title {
+    bottom: 200px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .header__dora-predojevic-title {
+    bottom: 200px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__dora-predojevic-title {
+    bottom: 124px;
+  }
+}
+@media (max-width: 767px) {
+  .header__dora-predojevic-title {
+    bottom: 144px;
+    left: 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 781px) {
+  .header__dora-predojevic-title {
+    bottom: 245px;
+    left: 325px;
+  }
+}
+@media (min-width: 750px) and (max-width: 767px) {
+  .header__dora-predojevic-title {
+    bottom: 172px;
+  }
+}
+@media (min-width: 425px) and (max-width: 749px) {
+  .header__dora-predojevic-title {
+    bottom: 74px;
+    left: -62px;
+  }
+}
+@media (max-width: 360px) {
+  .header__dora-predojevic-title {
+    bottom: 144px;
+    left: 110px;
+  }
 }
 
 .main-text {
@@ -66,9 +134,46 @@ body {
   text-align: center;
   color: #707070;
 }
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .main-text p {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-text p {
+    font-size: 16px;
+    line-height: 36px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .main-text p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
 .main-text p:first-of-type {
-  margin-top: 135px;
+  margin-top: -167px;
   margin-bottom: 35px;
+}
+@media (min-width: 1025px) and (max-width: 1366px) {
+  .main-text p:first-of-type {
+    margin-top: -145px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-text p:first-of-type {
+    margin-top: -166px;
+  }
+}
+@media (max-width: 767px) {
+  .main-text p:first-of-type {
+    margin-top: -115px;
+  }
 }
 .main-text span {
   font-weight: bold;

@@ -1,7 +1,7 @@
 //** MEDIA QUERIES **
 
 @mixin for-small-phone {
-  @media (max-width: 359px) {
+  @media (max-width: 360px) {
     @content;
   }
 }
@@ -61,13 +61,13 @@
 }
 
 @mixin for-fullhd {
-  @media (min-width: 1551px) and (max-width: 1920px) {
+  @media (min-width: 1551px) and (max-width: 1919px) {
     @content;
   }
 }
 
 @mixin for-ultrahd {
-  @media (min-width: 1921px) {
+  @media (min-width: 1920px) {
     @content;
   }
 }
