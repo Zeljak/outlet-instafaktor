@@ -30,6 +30,7 @@
       line-height: 26px;
       padding-left: 30px;
       padding-right: 30px;
+      margin-bottom: -46px;
     }
   }
 
@@ -42,10 +43,10 @@
     }
 
     @include for-tablet {
-      margin-top: -166px;
+      margin-top: -70px;
     }
     @include for-phone {
-      margin-top: -115px;
+      margin-top: -55px;
     }
   }
 

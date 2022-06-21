@@ -55,44 +55,28 @@
   }
 
   &__dora-predojevic-title {
-    position: relative;
-    bottom: 300px;
-    left: 0;
+    position: absolute;
+    bottom: 280px;
+    left: 767px;
 
     @include for-widescreen {
-      bottom: 200px;
+      bottom: 190px;
+      left: 558px;
     }
 
     @include for-desktop {
-      bottom: 200px;
+      bottom: 188px;
+      left: 540px;
     }
 
     @include for-tablet {
-      bottom: 124px;
+      bottom: 103px;
+      left: 371px;
     }
 
     @include for-phone {
-      bottom: 144px;
-      left: 110px;
-    }
-
-    @media (min-width: 768px) and (max-width: 781px) {
-      bottom: 245px;
-      left: 325px;
-    }
-
-    @media (min-width: 750px) and (max-width: 767px) {
-      bottom: 172px;
-    }
-
-    @media (min-width: 425px) and (max-width: 749px) {
-      bottom: 74px;
-      left: -62px;
-    }
-
-    @include for-small-phone {
-      bottom: 144px;
-      left: 110px;
+      bottom: 64px;
+      left: 124px;
     }
   }
 }
