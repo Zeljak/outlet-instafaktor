@@ -1,3 +1,17 @@
-@use '../utilities' as *;
-@use '../base/typography' as *;
+@use "../utilities" as *;
+@use "../base/typography" as *;
 
+footer {
+  background-color: #dddddd;
+
+  p {
+    font-family: $family-primary;
+    font-size: 18px;
+    line-height: 42px;
+    margin-top: 42px;
+  }
+
+  .amz_logo {
+    margin-right: 57px;
+  }
+}

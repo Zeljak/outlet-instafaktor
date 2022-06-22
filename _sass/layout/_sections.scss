@@ -1663,3 +1663,45 @@
     }
   }
 }
+
+.last-part {
+  max-width: 1300px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 310px;
+  color: $font-color;
+
+  .text1 {
+    font-family: $family-primary;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 200px;
+  }
+  a {
+    text-decoration: underline;
+    color: $font-color;
+    font-weight: bold;
+  }
+  .text2,
+  .text3 {
+    font-family: $family-primary;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .text2 {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .text3 {
+    letter-spacing: 0.48px;
+    margin-bottom: 200px;
+    span {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+  }
+}
