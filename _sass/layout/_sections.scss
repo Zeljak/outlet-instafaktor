@@ -755,8 +755,8 @@
   grid-template-columns: repeat(3, auto);
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
-    ". video video" ". video video" "text1 video video" "left-quote video video" "text2  video video"
-    "right-quote video video" "text3  video video" ". video video";
+    "video video ." "video video ." "video video text1" "video video left-quote" "video video text2 "
+    "video video right-quote";
   margin-top: 120px;
 
   @include for-widescreen {
@@ -766,8 +766,8 @@
   @include for-tablet {
     grid-template-columns: auto 300px;
     grid-template-areas:
-      ". video video video" "text1 video  video video" "left-quote video video video"
-      "text2 video video video" "right-quote video video video" "text3 text3 text3 text3";
+      "video text1" "video  ." "left-quote ."
+      "text2 text2" "right-quote .";
   }
 
   @include for-phone {
@@ -789,7 +789,6 @@
     @include for-tablet {
       font-size: 16px;
       line-height: 26px;
-      margin-top: 20px;
     }
     @include for-phone {
       font-size: 16px;
@@ -799,24 +798,25 @@
 
   &__text1,
   &__text3 {
-    padding-right: 70px;
-    padding-left: 310px;
+    padding-right: 310px;
+    padding-left: 70px;
 
     @include for-widescreen {
-      padding-left: 100px;
+      padding-right: 100px;
     }
 
     @include for-desktop {
-      padding-left: 80px;
+      padding-right: 80px;
     }
 
     @include for-tablet {
+      padding-right: 50px;
       padding-left: 50px;
     }
 
     @include for-phone {
-      padding-left: 30px;
       padding-right: 30px;
+      padding-left: 30px;
     }
   }
 
@@ -831,31 +831,36 @@
     @include for-desktop {
       margin-top: 80px;
     }
+
+    @include for-tablet {
+      margin-top: 200px;
+    }
   }
 
   &__text2 {
     grid-area: text2;
     font-style: italic;
-    padding-right: 90px;
-    padding-left: 340px;
+    padding-left: 90px;
+    padding-right: 340px;
     margin-bottom: 0;
 
     @include for-widescreen {
-      padding-left: 123px;
+      padding-right: 123px;
     }
 
     @include for-desktop {
-      padding-left: 100px;
+      padding-right: 100px;
     }
 
     @include for-tablet {
-      padding-left: 55px;
-      padding-right: 15px;
+      padding-right: 70px;
+      padding-left: 70px;
+      margin-top: -50px;
     }
 
     @include for-phone {
-      padding-left: 40px;
       padding-right: 40px;
+      padding-left: 40px;
     }
   }
 
@@ -876,36 +881,49 @@
 
   &__left-quote {
     grid-area: left-quote;
-    margin: 50px auto 10px 316px;
-
-    @include for-widescreen {
-      margin: 50px auto 10px 63px;
-    }
-    @include for-desktop {
-      margin: 50px auto 10px 63px;
-    }
+    display: block;
+    margin-right: auto;
+    margin-left: 73px;
+    margin-top: 50px;
 
     @include for-tablet {
-      margin: 65px auto 6px 43px;
+      margin-top: 28px;
+      margin-right: auto;
+      margin-left: 54px;
     }
 
     @include for-phone {
-      margin: 71px auto 10px 35px;
+      margin-top: 67px;
+      margin-right: auto;
+      margin-left: 32px;
     }
   }
 
   &__right-quote {
     grid-area: right-quote;
-    display: block;
-    margin-left: auto;
-    margin-right: 50px;
+    margin: 50px 316px 10px auto;
+
+    @include for-widescreen {
+      margin: 50px 63px 10px auto;
+    }
+    @include for-desktop {
+      margin: 50px 63px 10px auto;
+    }
+
+    @include for-tablet {
+      margin: 7px -246px 6px auto;
+    }
+
+    @include for-phone {
+      margin: 0 35px 10px auto;
+    }
   }
 
   &__text3 {
     grid-area: text3;
   }
 
-  &__sarmantno {
+  &__odvazno {
     position: absolute;
     z-index: 2;
     top: -50px;
@@ -934,10 +952,10 @@
     }
   }
 
-  &__botanicki {
+  &__petrinjska {
     position: absolute;
     z-index: 2;
-    top: 15px;
+    top: 167px;
     left: 495px;
 
     @include for-fullhd {
@@ -951,7 +969,7 @@
     }
 
     @include for-desktop {
-      top: -24px;
+      top: 119px;
       left: 322px;
     }
 
@@ -961,50 +979,56 @@
     }
 
     @include for-tablet {
-      top: -24px;
+      top: 15px;
       left: 243px;
     }
 
     @include for-phone {
-      top: 6px;
+      top: 23px;
+      left: 71px;
+    }
+
+    @include for-small-phone {
+      top: 12px;
       left: 0;
     }
   }
 
   &__circle {
     position: absolute;
-    z-index: -2;
+    right: 211px;
     top: 0;
-    left: 500px;
-    width: 864px;
-    height: 864px;
 
     @include for-widescreen {
-      width: 712px;
-      height: 712px;
+      width: 297px;
+      height: 297px;
+      top: -20px;
+      right: 0;
       bottom: 242px;
-      left: 196px;
+      z-index: -2;
     }
 
     @include for-tablet {
-      width: 369px;
-      height: 369px;
+      width: 189px;
+      height: 189px;
+      right: 56px;
       bottom: 191px;
-      left: 90px;
     }
 
     @include for-phone {
-      width: 250px;
-      height: 250px;
-      top: 568px;
+      width: 180px;
+      height: 180px;
+      top: -86px;
       left: 212px;
+      z-index: -2;
     }
 
     @include for-small-phone {
-      width: 250px;
-      height: 250px;
-      top: 472px;
-      left: -60px;
+      width: 180px;
+      height: 180px;
+      top: -86px;
+      left: 170px;
+      z-index: -2;
     }
   }
 }
@@ -1015,20 +1039,26 @@
   grid-template-columns: repeat(3, auto);
   grid-auto-rows: minmax(auto, auto);
   grid-template-areas:
-    "video video photo" "video video ." "video video text" "video video ." "video video ."
-    "video video ." "video video ." "video video ." "video video ." " video video .";
+    "photo video video" ". video video" "text video video" ". video video" ". video video"
+    ". video video" ". video video" ". video video" ". video video" ". video video";
   margin-top: 65px;
+
+  @include for-tablet {
+    margin-top: -35px;
+  }
 
   @include for-phone {
     grid-template-columns: auto auto;
-    grid-template-areas:
-      "video photo" "video ." "video ."
-      "video ." "video ." "text text";
-    margin-top: 30px;
+    grid-template-areas: "photo video" "text text";
+    margin-top: -125px;
   }
 
   &__video {
     grid-area: video;
+
+    @include for-desktop {
+      padding-left: 55px;
+    }
   }
 
   &__photo {
@@ -1036,7 +1066,8 @@
     padding-left: 65px;
 
     @include for-phone {
-      padding-left: 20px;
+      padding-right: 20px;
+      padding-left: 0;
     }
   }
 
@@ -1076,10 +1107,8 @@
   &__circle {
     position: absolute;
     z-index: -2;
-    right: -235px;
+    left: -235px;
     bottom: -337px;
-    width: 864px;
-    height: 864px;
 
     @include for-widescreen {
       width: 712px;
@@ -1101,12 +1130,13 @@
     }
 
     @include for-phone {
-      width: 180px;
-      height: 180px;
-      right: -44px;
-      bottom: -53px;
+      width: 250px;
+      height: 250px;
+      bottom: -125px;
+      left: -58px;
     }
   }
+
   &__circle2 {
     position: absolute;
     z-index: -2;
@@ -1130,6 +1160,39 @@
       width: 180px;
       height: 180px;
       left: 92px;
+    }
+  }
+
+  &__circle3 {
+    position: absolute;
+    z-index: -2;
+    top: -324px;
+    right: 532px;
+
+    @include for-widescreen {
+      width: 711px;
+      height: 711px;
+      right: 329px;
+    }
+
+    @include for-tablet {
+      width: 369px;
+      height: 369px;
+      top: -490px;
+      right: 106px;
+    }
+
+    @include for-phone {
+      width: 250px;
+      height: 250px;
+      left: 90px;
+      top: -842px;
+    }
+    @include for-small-phone {
+      width: 250px;
+      height: 250px;
+      left: 54px;
+      top: -1008px;
     }
   }
 
