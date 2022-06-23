@@ -70,6 +70,13 @@ footer .amz_logo {
       grid-template-areas: ". video video" ". video video" ". video video" "text1 video video" "left-quote video video" "text2 video video" "right-quote video video" "text3 video video";
   margin-top: 120px;
 }
+@media (min-width: 1920px) {
+  .blue-section1 {
+        grid-template-areas: ". video video" ". video video" ". video video" "text1 video video" "left-quote video video" "text2 video video" "right-quote video video" "text3 video video" ". video video" ". video video";
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .blue-section1 {
     -ms-grid-columns: auto 300px;
@@ -442,13 +449,14 @@ footer .amz_logo {
   grid-auto-rows: minmax(auto, auto);
       grid-template-areas: "video video photo" "video video ." "video video text" "video video ." "video video ." "video video ." "video video ." "video video ." "video video ." " video video .";
   margin-top: 65px;
+  max-width: 1920px;
+  margin: 65px auto 0 auto;
 }
 @media (max-width: 767px) {
   .blue-section2 {
     -ms-grid-columns: auto auto;
     grid-template-columns: auto auto;
         grid-template-areas: "video photo" "video ." "video ." "video ." "video ." "text text";
-    margin-top: 30px;
   }
   .blue-section2 > .blue-section1__video {
     -ms-grid-row: 1;
@@ -640,6 +648,12 @@ footer .amz_logo {
   grid-auto-rows: minmax(100px, auto);
       grid-template-areas: ". video video" ". video video" "text1 video video" "left-quote video video" "text2  video video" "right-quote video video" "text3  video video" ". video video";
   margin-top: 120px;
+}
+@media (min-width: 1920px) {
+  .yellow-section1 {
+    max-width: 1920px;
+    margin: 140px auto 0 auto;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .yellow-section1 {
@@ -1107,6 +1121,12 @@ footer .amz_logo {
       grid-template-areas: "video video photo" "video video ." "video video text" "video video ." "video video ." "video video ." "video video ." "video video ." "video video ." " video video .";
   margin-top: 65px;
 }
+@media (min-width: 1920px) {
+  .yellow-section2 {
+    max-width: 1920px;
+    margin: 65px auto 0 auto;
+  }
+}
 @media (max-width: 767px) {
   .yellow-section2 {
     -ms-grid-columns: auto auto;
@@ -1359,6 +1379,69 @@ footer .amz_logo {
   grid-auto-rows: minmax(100px, auto);
       grid-template-areas: "video video ." "video video ." "video video text1" "video video left-quote" "video video text2 " "video video right-quote";
   margin-top: 120px;
+}
+@media (min-width: 1920px) {
+  .pink-section1 {
+    max-width: 1920px;
+    margin: 140px auto 0 auto;
+        grid-template-areas: "video video ." "video video ." "video video text1" "video video left-quote" "video video text2 " "video video right-quote" "video video ." "video video .";
+  }
+  .pink-section1 > .blue-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .blue-section1__text1 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .blue-section1__text2 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .blue-section1__left-quote {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .blue-section1__right-quote {
+    -ms-grid-row: 6;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .blue-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .yellow-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .yellow-section1__text1 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .yellow-section1__text2 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .yellow-section1__left-quote {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .yellow-section1__right-quote {
+    -ms-grid-row: 6;
+    -ms-grid-column: 3;
+  }
+  .pink-section1 > .yellow-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .pink-section1 {
@@ -1908,6 +1991,12 @@ footer .amz_logo {
       grid-template-areas: "photo video video" ". video video" "text video video" ". video video" ". video video" ". video video" ". video video" ". video video" ". video video" ". video video";
   margin-top: 65px;
 }
+@media (min-width: 1920px) {
+  .pink-section2 {
+    max-width: 1920px;
+    margin: 82px auto 0 auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .pink-section2 {
     margin-top: -35px;
@@ -2227,6 +2316,12 @@ footer .amz_logo {
   grid-auto-rows: minmax(100px, auto);
       grid-template-areas: "video video ." "video video ." "video video left-quote" "video video text2" "video video right-quote" "video video text1" "video video ." "video video .";
   margin-top: 120px;
+}
+@media (min-width: 1920px) {
+  .green-section1 {
+    max-width: 1920px;
+    margin: 140px auto 0 auto;
+  }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .green-section1 {
@@ -2809,6 +2904,12 @@ footer .amz_logo {
       grid-template-areas: "photo video video" ". video video" "text video video" ". video video" ". video video" ". video video" ". video video" ". video video" ". video video" ". video video";
   margin-top: 65px;
 }
+@media (min-width: 1920px) {
+  .green-section2 {
+    max-width: 1920px;
+    margin: 85px auto 0 auto;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .green-section2 {
     margin-top: 35px;
@@ -2989,6 +3090,188 @@ footer .amz_logo {
   -ms-grid-row: 3;
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
+}
+@media (min-width: 1920px){
+  .blue-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .blue-section1__text1 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+  .blue-section1__text2 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
+  .blue-section1__left-quote {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  .blue-section1__right-quote {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }
+  .blue-section1__text3 {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+  }
+  .blue-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .yellow-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .yellow-section1__text1 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+  .yellow-section1__text2 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
+  .yellow-section1__left-quote {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  .yellow-section1__right-quote {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }
+  .yellow-section1__text3 {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+  }
+  .yellow-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .pink-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1__text1 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .pink-section1__text1 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  .pink-section1__text2 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .pink-section1__text2 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+  .pink-section1__left-quote {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .pink-section1__left-quote {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }
+  .pink-section1__right-quote {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .pink-section1__right-quote {
+    -ms-grid-row: 6;
+    -ms-grid-column: 3;
+  }
+  .pink-section1__text3 {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+  }
+  .pink-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .pink-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .green-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .green-section1__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+  .green-section1__text1 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .green-section1__text1 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
+  }
+  .green-section1__text2 {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .green-section1__text2 {
+    -ms-grid-row: 5;
+    -ms-grid-column: 3;
+  }
+  .green-section1__left-quote {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .green-section1__left-quote {
+    -ms-grid-row: 4;
+    -ms-grid-column: 3;
+  }
+  .green-section1__right-quote {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+  }
+  .pink-section1 > .green-section1__right-quote {
+    -ms-grid-row: 6;
+    -ms-grid-column: 3;
+  }
+  .green-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 10;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+  }
+  .pink-section1 > .green-section2__video {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px){
   .blue-section1__video {
@@ -4150,6 +4433,11 @@ footer .amz_logo {
   line-height: 46px;
   text-align: center;
   color: #707070;
+}
+@media (min-width: 1920px) {
+  .main-text p {
+    margin-bottom: 100px;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .main-text p {

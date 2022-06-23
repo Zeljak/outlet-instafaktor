@@ -19,6 +19,10 @@
     text-align: center;
     color: $font-color;
 
+    @include for-ultrahd {
+      margin-bottom: 100px;
+    }
+
     @include for-desktop {
       padding-left: 80px;
       padding-right: 80px;

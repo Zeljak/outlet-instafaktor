@@ -12,6 +12,14 @@
     "text2 video video" "right-quote video video" "text3 video video";
   margin-top: 120px;
 
+  @include for-ultrahd {
+    grid-template-areas:
+      ". video video" ". video video" ". video video" "text1 video video" "left-quote video video"
+      "text2 video video" "right-quote video video" "text3 video video" ". video video" ". video video";
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+
   @include for-tablet {
     grid-template-columns: auto 300px;
     grid-template-areas:
@@ -254,13 +262,14 @@
     "video video photo" "video video ." "video video text" "video video ." "video video ."
     "video video ." "video video ." "video video ." "video video ." " video video .";
   margin-top: 65px;
+  max-width: 1920px;
+  margin: 65px auto 0 auto;
 
   @include for-phone {
     grid-template-columns: auto auto;
     grid-template-areas:
       "video photo" "video ." "video ."
       "video ." "video ." "text text";
-    margin-top: 30px;
   }
 
   &__video {
@@ -361,6 +370,11 @@
     ". video video" ". video video" "text1 video video" "left-quote video video" "text2  video video"
     "right-quote video video" "text3  video video" ". video video";
   margin-top: 120px;
+
+  @include for-ultrahd {
+    max-width: 1920px;
+    margin: 140px auto 0 auto;
+  }
 
   @include for-widescreen {
     margin-top: 150px;
@@ -627,6 +641,11 @@
     "video video ." "video video ." "video video ." "video video ." " video video .";
   margin-top: 65px;
 
+  @include for-ultrahd {
+    max-width: 1920px;
+    margin: 65px auto 0 auto;
+  }
+
   @include for-phone {
     grid-template-columns: auto auto;
     grid-template-areas:
@@ -764,6 +783,14 @@
     "video video ." "video video ." "video video text1" "video video left-quote" "video video text2 "
     "video video right-quote";
   margin-top: 120px;
+
+  @include for-ultrahd {
+    max-width: 1920px;
+    margin: 140px auto 0 auto;
+    grid-template-areas:
+      "video video ." "video video ." "video video text1" "video video left-quote" "video video text2 "
+      "video video right-quote" "video video ." "video video .";
+  }
 
   @include for-widescreen {
     margin-top: 150px;
@@ -1049,6 +1076,11 @@
     ". video video" ". video video" ". video video" ". video video" ". video video";
   margin-top: 65px;
 
+  @include for-ultrahd {
+    max-width: 1920px;
+    margin: 82px auto 0 auto;
+  }
+
   @include for-tablet {
     margin-top: -35px;
   }
@@ -1225,6 +1257,11 @@
     "video video ." "video video ." "video video left-quote" "video video text2" "video video right-quote"
     "video video text1" "video video ." "video video .";
   margin-top: 120px;
+
+  @include for-ultrahd {
+    max-width: 1920px;
+    margin: 140px auto 0 auto;
+  }
 
   @include for-widescreen {
     margin-top: 150px;
@@ -1502,6 +1539,11 @@
     "photo video video" ". video video" "text video video" ". video video" ". video video"
     ". video video" ". video video" ". video video" ". video video" ". video video";
   margin-top: 65px;
+
+  @include for-ultrahd {
+    max-width: 1920px;
+    margin: 85px auto 0 auto;
+  }
 
   @include for-tablet {
     margin-top: 35px;
