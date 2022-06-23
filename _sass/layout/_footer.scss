@@ -4,11 +4,38 @@
 footer {
   background-color: #dddddd;
 
+  .logo {
+    @include for-phone {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__amz {
+      width: 154px;
+      height: 50.9px;
+    }
+
+    &__outlet {
+      width: 110px;
+      height: 110px;
+    }
+  }
+
   p {
     font-family: $family-primary;
     font-size: 18px;
     line-height: 42px;
     margin-top: 42px;
+
+    @include for-phone {
+      font-size: 15px;
+      line-height: 17px;
+      font-weight: 300;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
   }
 
   .amz_logo {

@@ -9,7 +9,7 @@
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
     ". video video" ". video video" ". video video" "text1 video video" "left-quote video video"
-    "text2 video video" "right-quote video video" "text3 video video" ". video video" ". video video";
+    "text2 video video" "right-quote video video" "text3 video video";
   margin-top: 120px;
 
   @include for-tablet {
@@ -543,6 +543,11 @@
     top: 15px;
     left: 495px;
 
+    @include for-ultrahd {
+      top: 85px;
+      left: 495px;
+    }
+
     @include for-fullhd {
       top: -48px;
       left: 554px;
@@ -757,7 +762,7 @@
   grid-auto-rows: minmax(100px, auto);
   grid-template-areas:
     "video video ." "video video ." "video video text1" "video video left-quote" "video video text2 "
-    "video video right-quote" "video video ." "video video .";
+    "video video right-quote";
   margin-top: 120px;
 
   @include for-widescreen {
@@ -960,22 +965,22 @@
     left: 495px;
 
     @include for-fullhd {
-      top: -48px;
+      top: 108px;
       left: 554px;
     }
 
     @include for-widescreen {
-      top: -35px;
+      top: 117px;
       left: 495px;
     }
 
     @include for-desktop {
-      top: 119px;
+      top: 122px;
       left: 322px;
     }
 
     @media (min-width: 1025px) and (max-width: 1200px) {
-      top: 23px;
+      top: 57px;
       left: 322px;
     }
 
@@ -999,6 +1004,7 @@
     position: absolute;
     right: 211px;
     top: 0;
+    z-index: -2;
 
     @include for-widescreen {
       width: 297px;
@@ -1006,7 +1012,6 @@
       top: -20px;
       right: 0;
       bottom: 242px;
-      z-index: -2;
     }
 
     @include for-tablet {
@@ -1064,7 +1069,7 @@
 
   &__photo {
     grid-area: photo;
-    padding-left: 65px;
+    padding-right: 65px;
 
     @include for-phone {
       padding-right: 20px;
@@ -1228,15 +1233,15 @@
   @include for-tablet {
     grid-template-columns: auto 300px;
     grid-template-areas:
-      "video text1" "video  ." "left-quote ."
-      "text2 text2" "right-quote .";
+      "video ." " video left-quote" "video  text2" "video right-quote"
+      "text1 text1";
   }
 
   @include for-phone {
     grid-template-columns: auto;
     grid-template-areas:
-      "video " "text1" "left-quote"
-      "text2" "right-quote" "text3";
+      "video " "left-quote" "text2" "right-quote"
+      "text1";
   }
 
   &__video {
@@ -1291,8 +1296,9 @@
     // @include for-desktop {
     // }
 
-    // @include for-tablet {
-    // }
+    @include for-tablet {
+      margin-top: 30px;
+    }
   }
 
   &__text2 {
@@ -1368,7 +1374,7 @@
     }
 
     @include for-tablet {
-      margin: 7px -246px 6px auto;
+      margin: 7px 214px auto;
     }
 
     @include for-phone {
@@ -1400,7 +1406,7 @@
       left: 153px;
     }
     @include for-phone {
-      top: -40px;
+      top: -74px;
       left: 0;
     }
   }
@@ -1412,17 +1418,17 @@
     left: 495px;
 
     @include for-fullhd {
-      top: -48px;
+      top: 0;
       left: 554px;
     }
 
     @include for-widescreen {
-      top: -35px;
+      top: 12px;
       left: 495px;
     }
 
     @include for-desktop {
-      top: 119px;
+      top: 16px;
       left: 322px;
     }
 
@@ -1432,17 +1438,17 @@
     }
 
     @include for-tablet {
-      top: 15px;
+      top: -38px;
       left: 243px;
     }
 
     @include for-phone {
-      top: 23px;
+      top: -15px;
       left: 71px;
     }
 
     @include for-small-phone {
-      top: 12px;
+      top: -30px;
       left: 0;
     }
   }
@@ -1472,7 +1478,7 @@
     @include for-phone {
       width: 180px;
       height: 180px;
-      top: -86px;
+      top: 665px;
       left: 212px;
       z-index: -2;
     }
@@ -1480,7 +1486,7 @@
     @include for-small-phone {
       width: 180px;
       height: 180px;
-      top: -86px;
+      top: 486px;
       left: 170px;
       z-index: -2;
     }
@@ -1498,13 +1504,12 @@
   margin-top: 65px;
 
   @include for-tablet {
-    margin-top: -35px;
+    margin-top: 35px;
   }
 
   @include for-phone {
     grid-template-columns: auto auto;
     grid-template-areas: "photo video" "text text";
-    margin-top: -125px;
   }
 
   &__video {
@@ -1517,7 +1522,7 @@
 
   &__photo {
     grid-area: photo;
-    padding-left: 65px;
+    padding-right: 65px;
 
     @include for-phone {
       padding-right: 20px;
@@ -1632,23 +1637,23 @@
     }
 
     @include for-tablet {
-      width: 369px;
-      height: 369px;
-      top: -490px;
-      right: 106px;
+      width: 189px;
+      height: 189px;
+      top: -123px;
+      left: 220px;
     }
 
     @include for-phone {
-      width: 250px;
-      height: 250px;
-      left: 90px;
-      top: -842px;
+      width: 180px;
+      height: 180px;
+      top: -101px;
+      left: 38px;
     }
     @include for-small-phone {
-      width: 250px;
-      height: 250px;
-      left: 54px;
-      top: -1008px;
+      width: 180px;
+      height: 180px;
+      top: -101px;
+      left: 38px;
     }
   }
 
@@ -1671,6 +1676,23 @@
   margin-top: 310px;
   color: $font-color;
 
+  @include for-widescreen {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+
+  @include for-tablet {
+    margin-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  @include for-phone {
+    margin-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
   .text1 {
     font-family: $family-primary;
     font-size: 30px;
@@ -1678,6 +1700,18 @@
     font-weight: bold;
     text-align: center;
     margin-bottom: 200px;
+
+    @include for-tablet {
+      font-size: 26px;
+      line-height: 50px;
+      margin-bottom: 100px;
+    }
+
+    @include for-phone {
+      font-size: 20px;
+      line-height: 36px;
+      margin-bottom: 50px;
+    }
   }
   a {
     text-decoration: underline;
@@ -1689,6 +1723,11 @@
     font-family: $family-primary;
     font-size: 16px;
     line-height: 30px;
+
+    @include for-phone {
+      font-size: 13px;
+      line-height: 26px;
+    }
   }
 
   .text2 {
@@ -1699,6 +1738,15 @@
   .text3 {
     letter-spacing: 0.48px;
     margin-bottom: 200px;
+
+    @include for-tablet {
+      margin-bottom: 100px;
+    }
+
+    @include for-phone {
+      margin-bottom: 60px;
+    }
+
     span {
       font-weight: bold;
       text-decoration: underline;

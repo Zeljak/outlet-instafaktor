@@ -61,7 +61,7 @@
 }
 
 @mixin for-fullhd {
-  @media (min-width: 1551px) and (max-width: 1919px) {
+  @media (min-width: 1551px) and (max-width: 1920px) {
     @content;
   }
 }

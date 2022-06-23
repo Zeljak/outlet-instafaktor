@@ -6,6 +6,12 @@
   display: block;
   margin: 0 auto;
 
+  a {
+    font-weight: bold;
+    color: $font-color;
+    text-decoration: underline;
+  }
+
   p {
     font-family: $family-primary;
     font-size: 26px;
