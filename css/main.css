@@ -354,13 +354,16 @@ footer .amz_logo {
 @media (min-width: 768px) and (max-width: 1024px) {
   .blue-section1__jednostavno-mocno {
     top: -84px;
-    left: 153px;
+    left: 50px;
   }
 }
 @media (max-width: 767px) {
   .blue-section1__jednostavno-mocno {
     top: -40px;
-    left: 0;
+    left: 30px;
+  }
+  .blue-section1__jednostavno-mocno img {
+    width: 73.6vw;
   }
 }
 .blue-section1__neodoljivi-spoj {
@@ -390,13 +393,17 @@ footer .amz_logo {
 @media (min-width: 768px) and (max-width: 1024px) {
   .blue-section1__neodoljivi-spoj {
     top: -50px;
-    left: 243px;
+    left: 115px;
   }
 }
 @media (max-width: 767px) {
   .blue-section1__neodoljivi-spoj {
-    top: 6px;
-    left: 0;
+    top: -17px;
+    left: initial;
+    right: 30px;
+  }
+  .blue-section1__neodoljivi-spoj img {
+    width: 72.2vw;
   }
 }
 .blue-section1__circle {
@@ -4361,59 +4368,59 @@ footer .amz_logo {
 .header__instafaktor-title {
   position: relative;
   bottom: 300px;
-  left: 405px;
+  left: calc(50vw - 555px);
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .header__instafaktor-title {
     bottom: 200px;
-    left: 288px;
+    left: calc(50vw - 395px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .header__instafaktor-title {
     bottom: 200px;
-    left: 288px;
+    left: calc(50vw - 395px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header__instafaktor-title {
     bottom: 113px;
-    left: 170px;
+    left: calc(50vw - 278px);
   }
 }
 @media (max-width: 767px) {
   .header__instafaktor-title {
     bottom: 70px;
-    left: 30px;
+    left: calc(50vw - 150px);
   }
 }
 .header__dora-predojevic-title {
   position: absolute;
   bottom: 280px;
-  left: 767px;
+  right: calc(50vw - 555px);
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .header__dora-predojevic-title {
     bottom: 190px;
-    left: 558px;
+    right: calc(50vw - 395px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .header__dora-predojevic-title {
     bottom: 188px;
-    left: 540px;
+    right: calc(50vw - 395px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .header__dora-predojevic-title {
     bottom: 103px;
-    left: 371px;
+    right: calc(50vw - 278px);
   }
 }
 @media (max-width: 767px) {
   .header__dora-predojevic-title {
     bottom: 64px;
-    left: 124px;
+    right: calc(50vw - 150px);
   }
 }
 

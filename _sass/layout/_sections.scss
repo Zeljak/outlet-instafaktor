@@ -175,11 +175,17 @@
 
     @include for-tablet {
       top: -84px;
-      left: 153px;
+      // left: 153px;
+      left: 50px;
     }
     @include for-phone {
       top: -40px;
-      left: 0;
+      // top: -11.11vw;
+      left: 30px;
+
+      img {
+        width: 73.6vw;
+      }
     }
   }
 
@@ -206,12 +212,19 @@
 
     @include for-tablet {
       top: -50px;
-      left: 243px;
+      // left: 243px;
+      left: 115px;
     }
 
     @include for-phone {
-      top: 6px;
-      left: 0;
+      top: -17px;
+      // top: -4.72vw;
+      left: initial;
+      right: 30px;
+
+      img {
+        width: 72.2vw;
+      }
     }
   }
 

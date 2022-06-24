@@ -31,52 +31,62 @@
   &__instafaktor-title {
     position: relative;
     bottom: 300px;
-    left: 405px;
-
+    // left: 405px;
+    left: calc(50vw - 555px);
+    
     @include for-widescreen {
       bottom: 200px;
-      left: 288px;
+      // left: 288px;
+      left: calc(50vw - 395px);
     }
-
+    
     @include for-desktop {
       bottom: 200px;
-      left: 288px;
+      // left: 288px;
+      left: calc(50vw - 395px);
     }
-
+    
     @include for-tablet {
       bottom: 113px;
-      left: 170px;
+      // left: 170px;
+      left: calc(50vw - 278px);
     }
-
+    
     @include for-phone {
       bottom: 70px;
-      left: 30px;
+      // left: 30px;
+      left: calc(50vw - 150px);
     }
   }
-
+  
   &__dora-predojevic-title {
     position: absolute;
     bottom: 280px;
-    left: 767px;
-
+    // left: 767px;
+    right: calc(50vw - 555px);
+    
     @include for-widescreen {
       bottom: 190px;
-      left: 558px;
+      // left: 558px;
+      right: calc(50vw - 395px);
     }
-
+    
     @include for-desktop {
       bottom: 188px;
-      left: 540px;
+      // left: 540px;
+      right: calc(50vw - 395px);
     }
-
+    
     @include for-tablet {
       bottom: 103px;
-      left: 371px;
+      // left: 371px;
+      right: calc(50vw - 278px);
     }
-
+    
     @include for-phone {
       bottom: 64px;
-      left: 124px;
+      // left: 124px;
+      right: calc(50vw - 150px);
     }
   }
 }
