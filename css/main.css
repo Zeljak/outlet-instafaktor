@@ -333,28 +333,35 @@ footer .amz_logo {
   position: absolute;
   z-index: 2;
   top: -50px;
-  left: 331px;
+  left: calc(50vw - 704px);
+}
+@media (min-width: 1920px) {
+  .blue-section1__jednostavno-mocno {
+    left: calc(50vw - 704px);
+  }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .blue-section1__jednostavno-mocno {
-    top: -90px;
+    left: calc(50vw - 704px);
+    top: -79px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .blue-section1__jednostavno-mocno {
     top: -90px;
+    left: calc(50vw - 395px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .blue-section1__jednostavno-mocno {
-    top: -84px;
-    left: 153px;
+    top: -90px;
+    left: calc(50vw - 395px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .blue-section1__jednostavno-mocno {
-    top: -84px;
-    left: 50px;
+    top: 0;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
@@ -368,42 +375,46 @@ footer .amz_logo {
 }
 .blue-section1__neodoljivi-spoj {
   position: absolute;
-  z-index: 2;
-  top: 75px;
-  left: 495px;
+  top: 76px;
+  left: calc(50vw - 704px);
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .blue-section1__neodoljivi-spoj {
-    top: 36px;
-    left: 495px;
+    left: calc(50vw - 704px);
+    top: 96px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .blue-section1__neodoljivi-spoj {
-    top: 36px;
-    left: 495px;
+    top: 79px;
+    left: calc(50vw - 395px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .blue-section1__neodoljivi-spoj {
-    top: 12px;
-    left: 445px;
+    top: 50px;
+    left: calc(50vw - 289px);
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .blue-section1__neodoljivi-spoj {
+    top: -10px;
+    left: calc(50vw - 289px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .blue-section1__neodoljivi-spoj {
-    top: -50px;
-    left: 115px;
+    top: 57px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .blue-section1__neodoljivi-spoj {
-    top: -17px;
-    left: initial;
-    right: 30px;
+    top: -11px;
+    left: 55px;
   }
   .blue-section1__neodoljivi-spoj img {
-    width: 72.2vw;
+    width: 73.6vw;
   }
 }
 .blue-section1__circle {
@@ -999,82 +1010,94 @@ footer .amz_logo {
   position: absolute;
   z-index: 2;
   top: -50px;
-  left: 331px;
+  left: calc(50vw - 704px);
+}
+@media (min-width: 1920px) {
+  .yellow-section1__sarmantno {
+    left: calc(50vw - 704px);
+  }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .yellow-section1__sarmantno {
-    top: -90px;
+    left: calc(50vw - 564px);
+    top: -103px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .yellow-section1__sarmantno {
-    top: -90px;
+    left: calc(50vw - 503px);
+    top: -91px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .yellow-section1__sarmantno {
     top: -84px;
-    left: 153px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .yellow-section1__sarmantno {
     top: -84px;
-    left: 153px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .yellow-section1__sarmantno {
-    top: -40px;
-    left: 0;
+    top: -65px;
+    left: 30px;
+  }
+  .yellow-section1__sarmantno img {
+    width: 73.6vw;
   }
 }
 .yellow-section1__botanicki {
   position: absolute;
-  z-index: 2;
-  top: 15px;
-  left: 495px;
+  top: 76px;
+  left: calc(50vw - 704px);
 }
 @media (min-width: 1920px) {
   .yellow-section1__botanicki {
-    top: 85px;
-    left: 495px;
+    left: calc(50vw - 704px);
+    top: 124px;
   }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .yellow-section1__botanicki {
-    top: -48px;
-    left: 554px;
+    left: calc(50vw - 564px);
+    top: -5px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .yellow-section1__botanicki {
-    top: -35px;
-    left: 495px;
+    top: 14px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .yellow-section1__botanicki {
-    top: -24px;
-    left: 322px;
+    top: 14px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .yellow-section1__botanicki {
-    top: 23px;
-    left: 322px;
+    top: 55px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .yellow-section1__botanicki {
-    top: -24px;
-    left: 243px;
+    top: -2px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .yellow-section1__botanicki {
-    top: 6px;
-    left: 0;
+    top: -34px;
+    left: 30px;
+  }
+  .yellow-section1__botanicki img {
+    width: 73.6vw;
   }
 }
 .yellow-section1__circle {
@@ -1868,82 +1891,94 @@ footer .amz_logo {
   position: absolute;
   z-index: 2;
   top: -50px;
-  left: 331px;
+  left: calc(50vw - 704px);
+}
+@media (min-width: 1920px) {
+  .pink-section1__odvazno {
+    left: calc(50vw - 704px);
+  }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .pink-section1__odvazno {
-    top: -90px;
+    left: calc(50vw - 564px);
+    top: -113px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .pink-section1__odvazno {
-    top: -90px;
+    left: calc(50vw - 503px);
+    top: -91px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .pink-section1__odvazno {
-    top: -84px;
-    left: 153px;
+    top: -146px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .pink-section1__odvazno {
     top: -84px;
-    left: 153px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .pink-section1__odvazno {
-    top: -40px;
-    left: 0;
+    top: -65px;
+    left: 30px;
+  }
+  .pink-section1__odvazno img {
+    width: 84.6vw;
   }
 }
 .pink-section1__petrinjska {
   position: absolute;
-  z-index: 2;
-  top: 167px;
-  left: 495px;
+  top: 76px;
+  left: calc(50vw - 704px);
+}
+@media (min-width: 1920px) {
+  .pink-section1__petrinjska {
+    left: calc(50vw - 704px);
+    top: 204px;
+  }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .pink-section1__petrinjska {
-    top: 108px;
-    left: 554px;
+    left: calc(50vw - 564px);
+    top: 135px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .pink-section1__petrinjska {
-    top: 117px;
-    left: 495px;
+    top: 158px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .pink-section1__petrinjska {
-    top: 122px;
-    left: 322px;
+    top: 106px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .pink-section1__petrinjska {
-    top: 57px;
-    left: 322px;
+    top: 44px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .pink-section1__petrinjska {
-    top: 15px;
-    left: 243px;
+    top: 36px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .pink-section1__petrinjska {
-    top: 23px;
-    left: 71px;
+    top: -21px;
+    left: 101px;
   }
-}
-@media (max-width: 360px) {
-  .pink-section1__petrinjska {
-    top: 12px;
-    left: 0;
+  .pink-section1__petrinjska img {
+    width: 61.6vw;
   }
 }
 .pink-section1__circle {
@@ -2780,82 +2815,94 @@ footer .amz_logo {
   position: absolute;
   z-index: 2;
   top: -50px;
-  left: 331px;
+  left: calc(50vw - 704px);
+}
+@media (min-width: 1920px) {
+  .green-section1__lezerno {
+    left: calc(50vw - 704px);
+  }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .green-section1__lezerno {
-    top: -90px;
+    left: calc(50vw - 564px);
+    top: -113px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .green-section1__lezerno {
-    top: -90px;
+    left: calc(50vw - 503px);
+    top: -91px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .green-section1__lezerno {
-    top: -84px;
-    left: 153px;
+    top: -146px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .green-section1__lezerno {
     top: -84px;
-    left: 153px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .green-section1__lezerno {
-    top: -74px;
-    left: 0;
+    top: -65px;
+    left: 30px;
+  }
+  .green-section1__lezerno img {
+    width: 84.6vw;
   }
 }
 .green-section1__kava {
   position: absolute;
-  z-index: 2;
-  top: 49px;
-  left: 495px;
+  top: 76px;
+  left: calc(50vw - 704px);
+}
+@media (min-width: 1920px) {
+  .green-section1__kava {
+    left: calc(50vw - 704px);
+    top: 90px;
+  }
 }
 @media (min-width: 1551px) and (max-width: 1920px) {
   .green-section1__kava {
-    top: 0;
-    left: 554px;
+    left: calc(50vw - 564px);
+    top: 35px;
   }
 }
 @media (min-width: 1366px) and (max-width: 1550px) {
   .green-section1__kava {
-    top: 12px;
-    left: 495px;
+    top: 59px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1366px) {
   .green-section1__kava {
-    top: 16px;
-    left: 322px;
+    top: 0;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .green-section1__kava {
-    top: 23px;
-    left: 322px;
+    top: -26px;
+    left: calc(50vw - 503px);
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .green-section1__kava {
-    top: -38px;
-    left: 243px;
+    top: -14px;
+    left: calc(50vw - 173px);
   }
 }
 @media (max-width: 767px) {
   .green-section1__kava {
-    top: -15px;
-    left: 71px;
+    top: -34px;
+    left: 101px;
   }
-}
-@media (max-width: 360px) {
-  .green-section1__kava {
-    top: -30px;
-    left: 0;
+  .green-section1__kava img {
+    width: 70.6vw;
   }
 }
 .green-section1__circle {

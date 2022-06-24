@@ -158,25 +158,36 @@
     position: absolute;
     z-index: 2;
     top: -50px;
-    left: 331px;
+    // left: 331px;
+    left: calc(50vw - 704px);
+
+    @include for-ultrahd {
+      left: calc(50vw - 704px);
+    }
 
     @include for-fullhd {
-      top: -90px;
+      left: calc(50vw - 704px);
+      top: -79px;
     }
 
     @include for-widescreen {
       top: -90px;
+      // bottom: 190px;
+      // left: 558px;
+      left: calc(50vw - 395px);
     }
 
     @include for-desktop {
-      top: -84px;
-      left: 153px;
+      top: -90px;
+      // bottom: 190px;
+      // left: 558px;
+      left: calc(50vw - 395px);
     }
 
     @include for-tablet {
-      top: -84px;
-      // left: 153px;
-      left: 50px;
+      top: 0;
+      // left: 767px;
+      left: calc(50vw - 173px);
     }
     @include for-phone {
       top: -40px;
@@ -191,39 +202,47 @@
 
   &__neodoljivi-spoj {
     position: absolute;
-    z-index: 2;
-    top: 75px;
-    left: 495px;
+    top: 76px;
+    // left: 767px;
+    left: calc(50vw - 704px);
 
     @include for-fullhd {
-      top: 36px;
-      left: 495px;
+      left: calc(50vw - 704px);
+      top: 96px;
     }
 
     @include for-widescreen {
-      top: 36px;
-      left: 495px;
+      top: 79px;
+      // left: 767px;
+      left: calc(50vw - 395px);
     }
 
     @include for-desktop {
-      top: 12px;
-      left: 445px;
+      top: 50px;
+
+      // bottom: 190px;
+      // left: 558px;
+      left: calc(50vw - 289px);
+    }
+
+    @media (min-width: 1025px) and (max-width: 1200px) {
+      top: -10px;
+      left: calc(50vw - 289px);
     }
 
     @include for-tablet {
-      top: -50px;
-      // left: 243px;
-      left: 115px;
+      top: 57px;
+      // left: 767px;
+      left: calc(50vw - 173px);
     }
 
     @include for-phone {
-      top: -17px;
-      // top: -4.72vw;
-      left: initial;
-      right: 30px;
+      top: -11px;
+      // top: -11.11vw;
+      left: 55px;
 
       img {
-        width: 72.2vw;
+        width: 73.6vw;
       }
     }
   }
@@ -539,70 +558,87 @@
     position: absolute;
     z-index: 2;
     top: -50px;
-    left: 331px;
+    // left: 331px;
+    left: calc(50vw - 704px);
+
+    @include for-ultrahd {
+      left: calc(50vw - 704px);
+    }
 
     @include for-fullhd {
-      top: -90px;
+      left: calc(50vw - 564px);
+      top: -103px;
     }
 
     @include for-widescreen {
-      top: -90px;
+      left: calc(50vw - 503px);
+      top: -91px;
     }
 
     @include for-desktop {
       top: -84px;
-      left: 153px;
+      left: calc(50vw - 503px);
     }
 
     @include for-tablet {
       top: -84px;
-      left: 153px;
+      left: calc(50vw - 173px);
     }
     @include for-phone {
-      top: -40px;
-      left: 0;
+      top: -65px;
+      // top: -11.11vw;
+      left: 30px;
+
+      img {
+        width: 73.6vw;
+      }
     }
   }
 
   &__botanicki {
     position: absolute;
-    z-index: 2;
-    top: 15px;
-    left: 495px;
+    top: 76px;
+    // left: 767px;
+    left: calc(50vw - 704px);
 
     @include for-ultrahd {
-      top: 85px;
-      left: 495px;
+      left: calc(50vw - 704px);
+      top: 124px;
     }
 
     @include for-fullhd {
-      top: -48px;
-      left: 554px;
+      left: calc(50vw - 564px);
+      top: -5px;
     }
 
     @include for-widescreen {
-      top: -35px;
-      left: 495px;
+      top: 14px;
+      left: calc(50vw - 503px);
     }
 
     @include for-desktop {
-      top: -24px;
-      left: 322px;
+      top: 14px;
+      left: calc(50vw - 503px);
     }
 
     @media (min-width: 1025px) and (max-width: 1200px) {
-      top: 23px;
-      left: 322px;
+      top: 55px;
+      left: calc(50vw - 503px);
     }
 
     @include for-tablet {
-      top: -24px;
-      left: 243px;
+      top: -2px;
+      left: calc(50vw - 173px);
     }
 
     @include for-phone {
-      top: 6px;
-      left: 0;
+      top: -34px;
+      // top: -11.11vw;
+      left: 30px;
+
+      img {
+        width: 73.6vw;
+      }
     }
   }
 
@@ -973,70 +1009,88 @@
     position: absolute;
     z-index: 2;
     top: -50px;
-    left: 331px;
+    // left: 331px;
+    left: calc(50vw - 704px);
+
+    @include for-ultrahd {
+      left: calc(50vw - 704px);
+    }
 
     @include for-fullhd {
-      top: -90px;
+      left: calc(50vw - 564px);
+      top: -113px;
     }
 
     @include for-widescreen {
-      top: -90px;
+      left: calc(50vw - 503px);
+      top: -91px;
     }
 
     @include for-desktop {
-      top: -84px;
-      left: 153px;
+      top: -146px;
+      left: calc(50vw - 503px);
     }
 
     @include for-tablet {
       top: -84px;
-      left: 153px;
+      left: calc(50vw - 173px);
     }
+
     @include for-phone {
-      top: -40px;
-      left: 0;
+      top: -65px;
+      // top: -11.11vw;
+      left: 30px;
+
+      img {
+        width: 84.6vw;
+      }
     }
   }
 
   &__petrinjska {
     position: absolute;
-    z-index: 2;
-    top: 167px;
-    left: 495px;
+    top: 76px;
+    // left: 767px;
+    left: calc(50vw - 704px);
+
+    @include for-ultrahd {
+      left: calc(50vw - 704px);
+      top: 204px;
+    }
 
     @include for-fullhd {
-      top: 108px;
-      left: 554px;
+      left: calc(50vw - 564px);
+      top: 135px;
     }
 
     @include for-widescreen {
-      top: 117px;
-      left: 495px;
+      top: 158px;
+      left: calc(50vw - 503px);
     }
 
     @include for-desktop {
-      top: 122px;
-      left: 322px;
+      top: 106px;
+      left: calc(50vw - 503px);
     }
 
     @media (min-width: 1025px) and (max-width: 1200px) {
-      top: 57px;
-      left: 322px;
+      top: 44px;
+      left: calc(50vw - 503px);
     }
 
     @include for-tablet {
-      top: 15px;
-      left: 243px;
+      top: 36px;
+      left: calc(50vw - 173px);
     }
 
     @include for-phone {
-      top: 23px;
-      left: 71px;
-    }
+      top: -21px;
+      // top: -11.11vw;
+      left: 101px;
 
-    @include for-small-phone {
-      top: 12px;
-      left: 0;
+      img {
+        width: 61.6vw;
+      }
     }
   }
 
@@ -1436,70 +1490,87 @@
     position: absolute;
     z-index: 2;
     top: -50px;
-    left: 331px;
+    left: calc(50vw - 704px);
+
+    @include for-ultrahd {
+      left: calc(50vw - 704px);
+    }
 
     @include for-fullhd {
-      top: -90px;
+      left: calc(50vw - 564px);
+      top: -113px;
     }
 
     @include for-widescreen {
-      top: -90px;
+      left: calc(50vw - 503px);
+      top: -91px;
     }
 
     @include for-desktop {
-      top: -84px;
-      left: 153px;
+      top: -146px;
+      left: calc(50vw - 503px);
     }
 
     @include for-tablet {
       top: -84px;
-      left: 153px;
+      left: calc(50vw - 173px);
     }
+
     @include for-phone {
-      top: -74px;
-      left: 0;
+      top: -65px;
+      // top: -11.11vw;
+      left: 30px;
+
+      img {
+        width: 84.6vw;
+      }
     }
   }
 
   &__kava {
     position: absolute;
-    z-index: 2;
-    top: 49px;
-    left: 495px;
+    top: 76px;
+    // left: 767px;
+    left: calc(50vw - 704px);
+
+    @include for-ultrahd {
+      left: calc(50vw - 704px);
+      top: 90px;
+    }
 
     @include for-fullhd {
-      top: 0;
-      left: 554px;
+      left: calc(50vw - 564px);
+      top: 35px;
     }
 
     @include for-widescreen {
-      top: 12px;
-      left: 495px;
+      top: 59px;
+      left: calc(50vw - 503px);
     }
 
     @include for-desktop {
-      top: 16px;
-      left: 322px;
+      top: 0;
+      left: calc(50vw - 503px);
     }
 
     @media (min-width: 1025px) and (max-width: 1200px) {
-      top: 23px;
-      left: 322px;
+      top: -26px;
+      left: calc(50vw - 503px);
     }
 
     @include for-tablet {
-      top: -38px;
-      left: 243px;
+      top: -14px;
+      left: calc(50vw - 173px);
     }
 
     @include for-phone {
-      top: -15px;
-      left: 71px;
-    }
+      top: -34px;
+      // top: -11.11vw;
+      left: 101px;
 
-    @include for-small-phone {
-      top: -30px;
-      left: 0;
+      img {
+        width: 70.6vw;
+      }
     }
   }
 
