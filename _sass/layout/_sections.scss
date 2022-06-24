@@ -1168,7 +1168,7 @@
 
   &__photo {
     grid-area: photo;
-    padding-right: 65px;
+    padding-left: 65px;
 
     @include for-phone {
       padding-right: 20px;
@@ -1648,7 +1648,7 @@
 
   &__photo {
     grid-area: photo;
-    padding-right: 65px;
+    padding-left: 65px;
 
     @include for-phone {
       padding-right: 20px;

@@ -2158,7 +2158,7 @@ footer .amz_logo {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: photo;
-  padding-right: 65px;
+  padding-left: 65px;
 }
 .yellow-section2 > .pink-section2__photo {
   -ms-grid-row: 1;
@@ -3103,7 +3103,7 @@ footer .amz_logo {
   -ms-grid-row: 1;
   -ms-grid-column: 3;
   grid-area: photo;
-  padding-right: 65px;
+  padding-left: 65px;
 }
 .yellow-section2 > .green-section2__photo {
   -ms-grid-row: 1;
