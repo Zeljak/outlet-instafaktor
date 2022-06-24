@@ -366,8 +366,8 @@ footer .amz_logo {
 }
 @media (max-width: 767px) {
   .blue-section1__jednostavno-mocno {
-    top: -40px;
-    left: 30px;
+    top: -65px;
+    left: calc(50vw - 150px);
   }
   .blue-section1__jednostavno-mocno img {
     width: 73.6vw;
@@ -410,11 +410,20 @@ footer .amz_logo {
 }
 @media (max-width: 767px) {
   .blue-section1__neodoljivi-spoj {
-    top: -11px;
-    left: 55px;
+    top: -15px;
+    left: calc(50vw - 150px);
   }
   .blue-section1__neodoljivi-spoj img {
-    width: 73.6vw;
+    width: 68.6vw;
+  }
+}
+@media (max-width: 360px) {
+  .blue-section1__neodoljivi-spoj {
+    top: -25px;
+    left: calc(50vw - 150px);
+  }
+  .blue-section1__neodoljivi-spoj img {
+    width: 68.6vw;
   }
 }
 .blue-section1__circle {
@@ -1044,7 +1053,7 @@ footer .amz_logo {
 @media (max-width: 767px) {
   .yellow-section1__sarmantno {
     top: -65px;
-    left: 30px;
+    left: calc(50vw - 150px);
   }
   .yellow-section1__sarmantno img {
     width: 73.6vw;
@@ -1093,11 +1102,20 @@ footer .amz_logo {
 }
 @media (max-width: 767px) {
   .yellow-section1__botanicki {
-    top: -34px;
-    left: 30px;
+    top: -15px;
+    left: calc(50vw - 150px);
   }
   .yellow-section1__botanicki img {
-    width: 73.6vw;
+    width: 68.6vw;
+  }
+}
+@media (max-width: 360px) {
+  .yellow-section1__botanicki {
+    top: -25px;
+    left: calc(50vw - 150px);
+  }
+  .yellow-section1__botanicki img {
+    width: 68.6vw;
   }
 }
 .yellow-section1__circle {
@@ -1925,10 +1943,10 @@ footer .amz_logo {
 @media (max-width: 767px) {
   .pink-section1__odvazno {
     top: -65px;
-    left: 30px;
+    left: calc(50vw - 150px);
   }
   .pink-section1__odvazno img {
-    width: 84.6vw;
+    width: 73.6vw;
   }
 }
 .pink-section1__petrinjska {
@@ -1974,11 +1992,20 @@ footer .amz_logo {
 }
 @media (max-width: 767px) {
   .pink-section1__petrinjska {
-    top: -21px;
-    left: 101px;
+    top: -15px;
+    left: calc(50vw - 150px);
   }
   .pink-section1__petrinjska img {
-    width: 61.6vw;
+    width: 68.6vw;
+  }
+}
+@media (max-width: 360px) {
+  .pink-section1__petrinjska {
+    top: -25px;
+    left: calc(50vw - 150px);
+  }
+  .pink-section1__petrinjska img {
+    width: 68.6vw;
   }
 }
 .pink-section1__circle {
@@ -2849,10 +2876,10 @@ footer .amz_logo {
 @media (max-width: 767px) {
   .green-section1__lezerno {
     top: -65px;
-    left: 30px;
+    left: calc(50vw - 150px);
   }
   .green-section1__lezerno img {
-    width: 84.6vw;
+    width: 73.6vw;
   }
 }
 .green-section1__kava {
@@ -2898,11 +2925,20 @@ footer .amz_logo {
 }
 @media (max-width: 767px) {
   .green-section1__kava {
-    top: -34px;
-    left: 101px;
+    top: -15px;
+    left: calc(50vw - 150px);
   }
   .green-section1__kava img {
-    width: 70.6vw;
+    width: 68.6vw;
+  }
+}
+@media (max-width: 360px) {
+  .green-section1__kava {
+    top: -25px;
+    left: calc(50vw - 150px);
+  }
+  .green-section1__kava img {
+    width: 68.6vw;
   }
 }
 .green-section1__circle {

@@ -189,10 +189,11 @@
       // left: 767px;
       left: calc(50vw - 173px);
     }
+
     @include for-phone {
-      top: -40px;
+      top: -65px;
       // top: -11.11vw;
-      left: 30px;
+      left: calc(50vw - 150px);
 
       img {
         width: 73.6vw;
@@ -237,12 +238,19 @@
     }
 
     @include for-phone {
-      top: -11px;
-      // top: -11.11vw;
-      left: 55px;
+      top: -15px;
+      left: calc(50vw - 150px);
 
       img {
-        width: 73.6vw;
+        width: 68.6vw;
+      }
+    }
+    @include for-small-phone {
+      top: -25px;
+      left: calc(50vw - 150px);
+
+      img {
+        width: 68.6vw;
       }
     }
   }
@@ -584,10 +592,11 @@
       top: -84px;
       left: calc(50vw - 173px);
     }
+
     @include for-phone {
       top: -65px;
       // top: -11.11vw;
-      left: 30px;
+      left: calc(50vw - 150px);
 
       img {
         width: 73.6vw;
@@ -632,12 +641,19 @@
     }
 
     @include for-phone {
-      top: -34px;
-      // top: -11.11vw;
-      left: 30px;
+      top: -15px;
+      left: calc(50vw - 150px);
 
       img {
-        width: 73.6vw;
+        width: 68.6vw;
+      }
+    }
+    @include for-small-phone {
+      top: -25px;
+      left: calc(50vw - 150px);
+
+      img {
+        width: 68.6vw;
       }
     }
   }
@@ -1039,10 +1055,10 @@
     @include for-phone {
       top: -65px;
       // top: -11.11vw;
-      left: 30px;
+      left: calc(50vw - 150px);
 
       img {
-        width: 84.6vw;
+        width: 73.6vw;
       }
     }
   }
@@ -1084,12 +1100,20 @@
     }
 
     @include for-phone {
-      top: -21px;
-      // top: -11.11vw;
-      left: 101px;
+      top: -15px;
+      left: calc(50vw - 150px);
 
       img {
-        width: 61.6vw;
+        width: 68.6vw;
+      }
+    }
+
+    @include for-small-phone {
+      top: -25px;
+      left: calc(50vw - 150px);
+
+      img {
+        width: 68.6vw;
       }
     }
   }
@@ -1519,10 +1543,10 @@
     @include for-phone {
       top: -65px;
       // top: -11.11vw;
-      left: 30px;
+      left: calc(50vw - 150px);
 
       img {
-        width: 84.6vw;
+        width: 73.6vw;
       }
     }
   }
@@ -1564,12 +1588,20 @@
     }
 
     @include for-phone {
-      top: -34px;
-      // top: -11.11vw;
-      left: 101px;
+      top: -15px;
+      left: calc(50vw - 150px);
 
       img {
-        width: 70.6vw;
+        width: 68.6vw;
+      }
+    }
+
+    @include for-small-phone {
+      top: -25px;
+      left: calc(50vw - 150px);
+
+      img {
+        width: 68.6vw;
       }
     }
   }
